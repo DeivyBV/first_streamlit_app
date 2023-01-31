@@ -1,7 +1,7 @@
-#import streamlit
-#import pandas
-#import requests
-#import snowflake.connector
+import streamlit
+import pandas
+import requests
+import snowflake.connector
 from urllib.error import URLError #this will be used for the Control of Flow 
 
 streamlit.title('My Mom\'s New Healthy Diner')
